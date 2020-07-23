@@ -4,6 +4,16 @@
 -- http://opensource.org/licenses/MIT
 -- Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
+--package.path = package.path..";/Volumes/work/xLua/?.lua.txt"
+--local breakSocketHandle,debugXpCall = require("LuaDebug")("localhost",7003)  
+--package.cpath = package.cpath .. ';/Users/winco/Library/Application Support/Rider2019.2/intellij-emmylua/classes/debugger/emmy/mac/?.dylib'
+--local dbg = require('emmy_core')
+--dbg.tcpListen('localhost', 9966)
+
+--package.path = package.path..";/Volumes/work/xLua/?.lua.txt"
+--local mobdebug = require("mobdebug");
+--mobdebug.start()
+
 local speed = 10
 local lightCpnt = nil
 
