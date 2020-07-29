@@ -6,13 +6,16 @@
 
 --package.path = package.path..";/Volumes/work/xLua/?.lua.txt"
 --local breakSocketHandle,debugXpCall = require("LuaDebug")("localhost",7003)  
+
 --package.cpath = package.cpath .. ';/Users/winco/Library/Application Support/Rider2019.2/intellij-emmylua/classes/debugger/emmy/mac/?.dylib'
 --local dbg = require('emmy_core')
 --dbg.tcpListen('localhost', 9966)
-
---package.path = package.path..";/Volumes/work/xLua/?.lua.txt"
---local mobdebug = require("mobdebug");
---mobdebug.start()
+print("CS.UnityEngine.RuntimePlatform.OSXEditor == CS.UnityEngine.Application.platform",CS.UnityEngine.RuntimePlatform.OSXEditor == CS.UnityEngine.Application.platform)
+if CS.UnityEngine.RuntimePlatform.OSXEditor == CS.UnityEngine.Application.platform then
+	package.path = package.path..";/Volumes/work/xLua/?.lua.txt"
+	local mobdebug = require("mobdebug");
+	mobdebug.start()
+end
 
 local speed = 10
 local lightCpnt = nil

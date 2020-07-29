@@ -26,6 +26,7 @@
       <Path>build</Path>
       <Path>docs</Path>
       <Path>obj</Path>
+      <Path>xcode</Path>
     </explicitExcludes>
   </component>
 </project>
