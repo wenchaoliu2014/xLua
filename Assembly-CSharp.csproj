@@ -174,7 +174,6 @@
     <None Include="Assets\XLua\Resources\perf\memory.lua.txt" />
     <None Include="Assets\XLua\CHANGELOG.txt" />
     <None Include="Assets\XLua\Resources\tdr\tdr.lua.txt" />
-    <None Include="Assets\XLua\Gen\Resources\hotfix_id_map.lua.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Volumes/work/xLua/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
