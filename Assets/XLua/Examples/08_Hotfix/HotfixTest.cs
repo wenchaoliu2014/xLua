@@ -35,6 +35,12 @@ namespace XLuaTest
                         print('<<<<<<<<Update in lua, tick = ' .. self.tick)
                     end
                 end)
+            xlua.hotfix(CS.XLuaTest.HotfixTest, 'Start', function(self)
+                    self.tick = self.tick + 1
+                    if (self.tick % 50) == 0 then
+                        print('<<<<<<<<Start in lua, tick = ' .. self.tick)
+                    end
+                end)
             ");
             }
 
