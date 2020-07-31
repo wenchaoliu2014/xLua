@@ -14,8 +14,6 @@
 
 
 extern Il2CppSequencePoint g_sequencePoints1[];
-extern Il2CppSequencePoint g_sequencePoints2[];
-extern Il2CppSequencePoint g_sequencePoints3[];
 
 
 
@@ -25,8 +23,6 @@ extern Il2CppSequencePoint g_sequencePoints3[];
 #if IL2CPP_MONO_DEBUGGER
 extern const Il2CppSequencePoint *g_sequencePoints[] = {
 g_sequencePoints1,
-g_sequencePoints2,
-g_sequencePoints3,
 };
 #else
 extern const Il2CppSequencePoint *g_sequencePoints[1] = { };

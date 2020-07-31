@@ -4569,8 +4569,9 @@ extern const int32_t g_FieldOffsetTable1938[1] =
 	0,
 };
 extern const Il2CppTypeDefinitionSizes g_typeDefinitionSize1939 = { 0, 0, 0, 0 };
-extern const int32_t g_FieldOffsetTable1939[4] = 
+extern const int32_t g_FieldOffsetTable1939[5] = 
 {
+	0,
 	0,
 	0,
 	0,
