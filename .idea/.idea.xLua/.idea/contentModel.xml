@@ -75,6 +75,9 @@
             <e p="EnumWrap.cs" t="Include" />
             <e p="link.xml" t="Include" />
             <e p="PackUnpack.cs" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="hotfix_id_map.lua.txt" t="Include" />
+            </e>
             <e p="System_Collections_Generic_List_1_System_Int32_Wrap.cs" t="Include" />
             <e p="System_Collections_IEnumeratorBridge.cs" t="Include" />
             <e p="System_ObjectWrap.cs" t="Include" />
