@@ -1644,6 +1644,10 @@ namespace CSObjectWrapEditor
                 method.Invoke(null, new object[] { });
             }
         }
+//        [MenuItem("XLua/Generate", false, 1)]
+//        public static void GenAll()
+//        {
+//        }
 
         [MenuItem("XLua/Generate Code", false, 1)]
         public static void GenAll()

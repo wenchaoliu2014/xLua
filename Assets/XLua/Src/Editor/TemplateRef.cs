@@ -1,5 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEditor;
+
 namespace XLua
 {
     public class TemplateRef : ScriptableObject
@@ -17,4 +19,12 @@ namespace XLua
         public TextAsset PackUnpack;
         public TextAsset TemplateCommon;
     }
+}
+
+public static class EditorTest
+{
+        [MenuItem("XLua/Generate", false, 1)]
+        public static void GenAll(bool trace)
+        {
+        }
 }
